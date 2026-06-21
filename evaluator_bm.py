@@ -188,7 +188,7 @@ def build_word_document(week_no, start_date, end_date, days_data, conclusion):
 
 # --- Antara Muka Aplikasi Web Streamlit ---
 st.set_page_config(layout="wide", page_title="Portal Penilaian Pelajaran AI")
-st.title("📋 Portal Automasi Penilaian Rancangan Mengajar (BM)")
+st.title("📋 Automasi Penilaian Rancangan Mengajar")
 
 # --- INPUT KUNCI API ---
 user_api_key = st.text_input(
